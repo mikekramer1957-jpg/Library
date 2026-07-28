@@ -10,6 +10,13 @@ nav {
     height:80px;
     display: flex;
 }
+img {
+    width: 100%
+}
+
+p {
+    line-height: 1.5;
+}
 .nav__container {
     width:100%;
     max-width: 1200px;
@@ -76,14 +83,14 @@ header {
     flex-direction: column;
 }
 h1 {
-    font-size: 56px;
+    font-size: 32px;
     color:#7342d6;
     margin-bottom: 24px;
     text-align: center;
 }
 h2 {  
-  font-size: 32px;
-  margin-bottom: 32;
+  font-size: 28px;
+  margin-bottom: 24;
   text-align: center;
 }
 
@@ -98,10 +105,12 @@ button:active {
 .btn {
     background-color:#7342d6;
     color: white;
+    width: 200px;
     padding: 12px 24px;
     font-size: 20px;
     border-radius: 4px;
     border: none;
+    margin: 0 auto;
 }
 .header__img--wrapper {
     padding:20px;
@@ -116,6 +125,28 @@ margin: 0 auto;
 }
 
 /* Highlights */
+
+#highlights:before {
+    content: "testwefguwegfiu"
+    /* background: url(assets/wave.svg);
+    content: "";
+    position: absolute;
+    top: 1px;
+    left" 0;
+    transform: translateY(-100%);
+    width: 101vw;
+    height: 12vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: */
+    } 
+    #highlights:after {
+        background: url("./assets-20260724T164123Z-1-001/assets/wave.svg");
+        content: "";
+        position: absolute;
+    }
+    
+
 img {
     width:100%;
     height:100%;
@@ -136,10 +167,11 @@ img {
 
 .highlight__para {
     text-align: center;
+    max-width:280px;
 }
 .highlight__img {
     border: 2px solid #7342d65d;
-    color:#7342d6
+    color:#7342d6;
     padding: 100px;
     height: 100px;
     display: flex;
