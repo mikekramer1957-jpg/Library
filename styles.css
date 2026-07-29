@@ -114,6 +114,7 @@ button:active {
 }
 .header__img--wrapper {
     padding:20px;
+    z-index: 2;
 }
 .container {
 padding: 56px 0;
@@ -125,6 +126,9 @@ margin: 0 auto;
 }
 
 /* Highlights */
+#highlights {
+    position: relative;
+}
 
 #highlights:before {
     content: "testwefguwegfiu"
@@ -144,6 +148,14 @@ margin: 0 auto;
         background: url("./assets-20260724T164123Z-1-001/assets/wave.svg");
         content: "";
         position: absolute;
+        width: 101vw;
+        height: 12vw;
+        top: 1px;
+        left: 0;
+        z-index: 1;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: translateY(-100);
     }
     
 
