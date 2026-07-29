@@ -138,28 +138,26 @@ margin: 0 auto;
     z-index: 2;
 }
 
-#highlights:before {
-    transform: translateY(-100%);
-}
+#highlights:before 
+
     #highlights:after {
         background: url("./assets-20260724T164123Z-1-001/assets/wave.svg");
         content: "";
         position: absolute;
+        left: 0;
         width: 101vw;
         height: 12vw;
-        bottom: 1px;
-        left: 0;
-        z-index: 1;
         background-size: cover;
         background-repeat: no-repeat;
-        transform: translateY(100%) rotate(180deg);
+        z-index: 1;
     }
     highlights: before {
         top 1px;
         transform: translateY(-100%);
     }
     highlights: after: {
-        bottom: 1px; transform: translateY(100%) rotate(180deg);
+        bottom: 1px;
+        transform:translateY(100%) rotate(180deg);
     }
     
 
@@ -208,7 +206,7 @@ margin: 0 auto;
         width: 100%;
     }
 
-    .highlight:not (:last-child) {
+    .highlight:not(:last-child) {
         margin-bottom: 24px;}
     } 
 
